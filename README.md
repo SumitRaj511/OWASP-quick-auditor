@@ -77,11 +77,13 @@ python3 auditor.py http://testphp.vulnweb.com searchFor,artist
 
 ## 📁 Project Structure
 owasp-auditor/
+
 ├── auditor.py          # Main runner
 
 ├── advisor.py          # Cyber Mentor Mode (fix suggestions)
 
 ├── reporter.py         # HTML report generator
+
 └── checks/
 ├── headers.py      # Security header checks
 
