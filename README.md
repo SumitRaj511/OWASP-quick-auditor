@@ -21,7 +21,10 @@ finding in plain English and provides ready-to-use fix code snippets.
 
 
 ### HTML Report
-![Report](screenshots/report.png)
+<img width="1080" height="453" alt="image" src="https://github.com/user-attachments/assets/803db7bc-41c3-41de-b0ce-13a87f8d9cf3" />
+<img width="1079" height="386" alt="image" src="https://github.com/user-attachments/assets/f4902ef3-aa19-4c24-86d2-7155249aa594" />
+<img width="1079" height="382" alt="image" src="https://github.com/user-attachments/assets/065bc0da-c2e2-4953-82b1-e103694c18af" />
+
 
 ---
 
