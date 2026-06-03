@@ -85,6 +85,7 @@ owasp-auditor/
 ├── reporter.py         # HTML report generator
 
 └── checks/
+
 ├── headers.py      # Security header checks
 
 ├── cookies.py      # Cookie flag checks
