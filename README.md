@@ -76,28 +76,34 @@ python3 auditor.py http://testphp.vulnweb.com searchFor,artist
 ---
 
 ## 📁 Project Structure
-owasp-auditor/
 
-├── auditor.py          # Main runner
-
-├── advisor.py          # Cyber Mentor Mode (fix suggestions)
-
-├── reporter.py         # HTML report generator
-
-└── checks/
-
-├── headers.py      # Security header checks
-
-├── cookies.py      # Cookie flag checks
-
-├── directory.py    # Directory listing checks
-
-├── xss.py          # XSS reflection checks
-
-├── sqli.py         # SQL injection checks
-
-└── cors.py         # CORS misconfiguration checks
-
+```text
+OWASP-quick-auditor/
+│
+├── auditor.py                 # Entry point for the security scanner
+├── advisor.py                 # Cyber Mentor Mode (explanations & remediation)
+├── reporter.py                # Generates HTML security reports
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+│
+├── checks/                    # Security testing modules
+│   ├── headers.py             # Security header validation
+│   ├── cookies.py             # Cookie security checks
+│   ├── directory.py           # Directory exposure detection
+│   ├── xss.py                 # Reflected XSS testing
+│   ├── sqli.py                # SQL Injection detection
+│   └── cors.py                # CORS misconfiguration checks
+│
+├── templates/                 # HTML report templates
+│   └── report_template.html
+│
+├── reports/                   # Generated scan reports
+│   └── report.html
+│
+└── assets/                    # Screenshots and images
+    ├── terminal-output.png
+    └── report-preview.png
+```
 ---
 
 ## 🧠 What Makes This Different
